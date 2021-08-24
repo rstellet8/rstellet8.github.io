@@ -1,11 +1,10 @@
-body {
-    margin: 0;
-    background-color: white;
-}
-
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: rgb(182, 182, 182);
 }
 
 .title-bar {
@@ -14,22 +13,18 @@ body {
     color: white;
 }
 
-.body-wrapper {
-    padding: 0 1em 55%;
-    background-color: rgb(146, 146, 146);
-}
-
 .content {
     background-color: rgb(255, 255, 255);
-    padding: 1em 1em; /* dar um jeito desse padding se ajustar sozinho */
-
+    padding: 1em; /* dar um jeito desse padding se ajustar sozinho */
+    margin: 0 1em;
+    min-width: 200px;
 }
 
 .footer {
     background-color: black;
     color: white;
-    padding: 1em 0;
+    padding: 1em;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: calc(100% - 2em);
 }
